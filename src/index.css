@@ -9,8 +9,10 @@ body {
 }
 
 .App {
+  height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 label {
@@ -32,7 +34,6 @@ textarea {
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin-bottom: 20px;
 }
 
 .form-control {
